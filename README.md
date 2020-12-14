@@ -43,6 +43,7 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+  Closure allows for functions to follow inheritance rules and access to an outer function scope from the inner function.
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -64,8 +65,11 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+  Closure is used in the inner function passing the variable name.
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+  the first part will always be the same, the only thing that changes will be the newRoll number
 c. What is the lexical scope of `newRoll`? 
+  block/function scope
 
 
 ### Task 3 - Stretch Goals
